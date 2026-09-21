@@ -1,0 +1,25 @@
+{
+  "schema_version": "1",
+  "case_ref": "CASE-011-DEMO",
+  "dispute_type": "crew_labor",
+  "dispute_label": "船员劳资",
+  "status": "已受理",
+  "current_step": {
+    "unit_kind": "labor",
+    "unit_label": "人社仲裁机构",
+    "action": "劳动人事争议仲裁",
+    "reason": "船员劳资争议属劳动争议，仲裁前置（劳动争议调解仲裁法第五条），仲裁时效一年",
+    "status": "进行中",
+    "entered_at": "2026-09-20T09:00:00+08:00"
+  },
+  "next_step": {
+    "unit_label": "法院",
+    "action": "诉讼"
+  },
+  "claims": [
+    {"claim_ref": "CLAIM-011-DEMO", "claim_type": "工资报酬", "status": "有效"}
+  ],
+  "deadlines": [
+    {"kind": "仲裁时效", "due_at": "2027-03-01T00:00:00+08:00", "status": "运行中", "remaining_days": 158}
+  ]
+}

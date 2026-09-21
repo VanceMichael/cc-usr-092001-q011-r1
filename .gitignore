@@ -1,6 +1,8 @@
 .env
 *.key
 *.pem
+data/
+*.sqlite3
 node_modules/
 .venv/
 venv/

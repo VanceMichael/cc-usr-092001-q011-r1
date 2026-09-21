@@ -1,0 +1,27 @@
+{
+  "schema_version": "1",
+  "transfer_ref": "TRANS-011-DEMO",
+  "case_ref": "CASE-011-DEMO",
+  "kind": "调解转司法确认",
+  "from_unit_kind": "mediation",
+  "to_unit_kind": "court",
+  "reason": "双方达成调解协议，共同申请司法确认",
+  "materials": ["EVID-011-DEMO"],
+  "confidentiality": "L2",
+  "deadline_snapshot": [
+    {
+      "deadline_ref": "DDL-011-DEMO",
+      "kind": "司法确认申请期",
+      "basis": "人民调解法第三十三条",
+      "due_at": "2026-10-19T23:59:59+08:00",
+      "status": "运行中",
+      "remaining_days": 25,
+      "warning": true
+    }
+  ],
+  "status": "待接收确认",
+  "handover_by": "mediation",
+  "handover_at": "2026-09-24T10:00:00+08:00",
+  "receipt_by": null,
+  "receipt_at": null
+}
