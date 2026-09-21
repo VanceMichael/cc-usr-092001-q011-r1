@@ -1,8 +1,11 @@
 {
-  "schema_version": "1",
-  "event_id": "EVENT-011-DEMO",
-  "subject_ref": "SUBJECT-011-DEMO",
+  "schema_version": "2",
+  "event_id": "EVENT-MSA-1001",
+  "subject_ref": "CASE-2026-00042",
+  "source_unit": "MSA",
+  "source_sequence": 17,
   "occurred_at": "2026-09-19T09:30:00+08:00",
-  "source_sequence": 1,
-  "payload_digest": "sha256:demo"
+  "received_at": "2026-09-19T10:02:11+08:00",
+  "kind": "external_notice",
+  "payload_digest": "sha256:0fa1d2e6e4f34d98af17557188ac50910f5b19c0c81e9a06b4d2f7c3d5a10e91"
 }

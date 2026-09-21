@@ -1,0 +1,23 @@
+{
+  "dispute_type": "crew_labor",
+  "relation_ref": "EMP-LAC-2026-0091",
+  "parties": [
+    {"party_ref": "PARTY-WANG-007", "role": "claimant", "contact_ref": "CONTACT-REF-007"},
+    {"party_ref": "PARTY-FLEET-007", "role": "respondent"}
+  ],
+  "claims": [
+    {"claim_kind": "wages", "subject_ref": "PAYROLL-0809",
+     "period_start": "2026-05-01", "period_end": "2026-08-31",
+     "amount_ref": "AMT-LEDGER-0809"}
+  ],
+  "connections": [
+    {"point_type": "employer_locale", "point_ref": "GEO-QINZHOU-HR"},
+    {"point_type": "performance_locale", "point_ref": "GEO-CANAL-KM83"}
+  ],
+  "evidence": [
+    {"evidence_ref": "EVD-PAY-01",
+     "digest": "sha256:9f3c8e4d2a1b0f6e7c5d4a3b2c1d0e9f8a7b6c5d4e3f2a1b0c9d8e7f6a5b4c3d",
+     "holder_unit": "HRSS", "confidentiality": "restricted",
+     "sealed_at": "2026-09-20T15:00:00+08:00", "note": "工资表封存（示例摘要）"}
+  ]
+}
